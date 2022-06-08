@@ -1,4 +1,4 @@
-package com.devculi.designpattern.creationals.factory.problems;
+package com.devculi.designpattern.creationals.factory.bean;
 
 public abstract class Animal {
 	private String name;

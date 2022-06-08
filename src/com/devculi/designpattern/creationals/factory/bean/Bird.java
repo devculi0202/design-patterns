@@ -1,4 +1,6 @@
-package com.devculi.designpattern.creationals.factory.problems;
+package com.devculi.designpattern.creationals.factory.bean;
+
+import com.devculi.designpattern.creationals.factory.problems.BirdBehavior;
 
 public class Bird extends Animal implements BirdBehavior {
 

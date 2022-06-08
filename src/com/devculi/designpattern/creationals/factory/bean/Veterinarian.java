@@ -1,4 +1,4 @@
-package com.devculi.designpattern.creationals.factory.problems;
+package com.devculi.designpattern.creationals.factory.bean;
 
 import java.util.Map;
 import java.util.Optional;
@@ -12,9 +12,9 @@ public class Veterinarian {
 		if (nameFishOpt.isPresent()) {
 			Fish fish = fishes.get(nameFishOpt.get());
 			if (fish.getWeight() >= 100 && fish.getWeight() <= 999)
-				System.out.println("Health OK");
+				System.out.println("Health " + fish.getName() + "OK");
 			else {
-				System.out.println("Health not OK");
+				System.out.println("Health " + fish.getName() + " not OK");
 			}
 		} else {
 			System.out.println("That animal doesn't exist");

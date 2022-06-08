@@ -1,11 +1,11 @@
 package com.devculi.designpattern.creationals.factory.solve;
 
-import com.devculi.designpattern.creationals.factory.problems.Animal;
-import com.devculi.designpattern.creationals.factory.problems.Chicken;
-import com.devculi.designpattern.creationals.factory.problems.Dophin;
-import com.devculi.designpattern.creationals.factory.problems.Eagle;
-import com.devculi.designpattern.creationals.factory.problems.Frog;
-import com.devculi.designpattern.creationals.factory.problems.Shark;
+import com.devculi.designpattern.creationals.factory.bean.Animal;
+import com.devculi.designpattern.creationals.factory.bean.Chicken;
+import com.devculi.designpattern.creationals.factory.bean.Dophin;
+import com.devculi.designpattern.creationals.factory.bean.Eagle;
+import com.devculi.designpattern.creationals.factory.bean.Frog;
+import com.devculi.designpattern.creationals.factory.bean.Shark;
 
 public class ZooFactory {
 	private Animal animal;

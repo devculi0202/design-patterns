@@ -3,6 +3,16 @@ package com.devculi.designpattern.creationals.factory.problems;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.devculi.designpattern.creationals.factory.bean.Bird;
+import com.devculi.designpattern.creationals.factory.bean.Chicken;
+import com.devculi.designpattern.creationals.factory.bean.Dophin;
+import com.devculi.designpattern.creationals.factory.bean.Eagle;
+import com.devculi.designpattern.creationals.factory.bean.Fish;
+import com.devculi.designpattern.creationals.factory.bean.Frog;
+import com.devculi.designpattern.creationals.factory.bean.Reptile;
+import com.devculi.designpattern.creationals.factory.bean.Shark;
+import com.devculi.designpattern.creationals.factory.bean.Veterinarian;
+
 public class Zoo {
 	public static void main(String[] args) {
 		Reptile frog = new Frog("frog","male", 1, 1);
