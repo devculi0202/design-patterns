@@ -1,4 +1,4 @@
-package com.devculi.designpattern.creationals.factory.solve;
+package com.devculi.designpattern.creationals.factory.solve1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,6 +26,7 @@ public class Zoo {
 		chicken.move();
 		chicken.fly();
 		System.out.println(chicken.toString());
+		System.out.println("----------------");
 
 		Fish dophin = (Fish) zoo.getAnimalByName("Dophin");
 		dophin.eat();
@@ -33,6 +34,7 @@ public class Zoo {
 		dophin.move();
 		dophin.swim();
 		System.out.println(dophin.toString());
+		System.out.println("----------------");
 
 		Reptile frog = (Reptile) zoo.getAnimalByName("Frog");
 		frog.eat();
@@ -40,6 +42,7 @@ public class Zoo {
 		frog.move();
 		frog.leap();
 		System.out.println(frog.toString());
+		System.out.println("----------------");
 
 		Fish shark = (Fish) zoo.getAnimalByName("Shark");
 		shark.eat();
@@ -47,6 +50,7 @@ public class Zoo {
 		shark.move();
 		shark.swim();
 		System.out.println(shark.toString());
+		System.out.println("----------------");
 
 		Bird eagle = (Bird) zoo.getAnimalByName("Eagle");
 		eagle.eat();
@@ -54,10 +58,18 @@ public class Zoo {
 		eagle.move();
 		eagle.fly();
 		System.out.println(eagle.toString());
+		System.out.println("----------------");
+
+		Bird peacock = (Bird) zoo.getAnimalByName("Peacock");
+		peacock.eat();
+		peacock.sleep();
+		peacock.move();
+		peacock.fly();
+		System.out.println(peacock.toString());
 
 		List<Fish> fishes = new ArrayList<>();
-		fishes.add((Fish) dophin);
-		fishes.add((Fish) shark);
+		fishes.add(dophin);
+		fishes.add(shark);
 
 		Map<String, Fish> fishesMap = collectFishesTypeToMap(fishes);
 		Veterinarian veterinarian = new Veterinarian();

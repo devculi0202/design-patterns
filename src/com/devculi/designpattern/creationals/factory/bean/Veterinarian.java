@@ -12,7 +12,7 @@ public class Veterinarian {
 		if (nameFishOpt.isPresent()) {
 			Fish fish = fishes.get(nameFishOpt.get());
 			if (fish.getWeight() >= 100 && fish.getWeight() <= 999)
-				System.out.println("Health " + fish.getName() + "OK");
+				System.out.println("Health " + fish.getName() + " OK");
 			else {
 				System.out.println("Health " + fish.getName() + " not OK");
 			}

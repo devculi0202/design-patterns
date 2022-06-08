@@ -9,6 +9,7 @@ import com.devculi.designpattern.creationals.factory.bean.Dophin;
 import com.devculi.designpattern.creationals.factory.bean.Eagle;
 import com.devculi.designpattern.creationals.factory.bean.Fish;
 import com.devculi.designpattern.creationals.factory.bean.Frog;
+import com.devculi.designpattern.creationals.factory.bean.Peacock;
 import com.devculi.designpattern.creationals.factory.bean.Reptile;
 import com.devculi.designpattern.creationals.factory.bean.Shark;
 import com.devculi.designpattern.creationals.factory.bean.Veterinarian;
@@ -52,6 +53,15 @@ public class Zoo {
 		shark.sleep();
 		shark.move();
 		shark.swim();
+
+		System.out.println("----------------");
+		Bird peacock = new Peacock("peacock", "female", 1, 3);
+		System.out.println(peacock.toString());
+		peacock.eat();
+		peacock.sleep();
+		peacock.move();
+		peacock.fly();
+
 
 		Map<String, Fish> fishes = new HashMap<>();
 		fishes.put(dophin.getName(), dophin);
