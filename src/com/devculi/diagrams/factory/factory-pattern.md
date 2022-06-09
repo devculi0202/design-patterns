@@ -20,9 +20,9 @@ Requirements:
   - Yes! We do. It make me confuse. :3
   - With case  use ZooFactory, if the zoo want to check ability of other animal. We have to change code at ZooFactory(new a other animal) and change code at Zoo class as well (get this animal by name and invoke its ability)  ==> Change 2 class.
 
-??What happened when a other zoo also want to collect animals and check their abilities(for example: Zoo at HoChiMinh)
+??What happened when a other zoo also want to collect other animals and check their abilities(for example: Zoo at HoChiMinh)
 
-
+  => We have create a class ZooHoChiMinh and a class ZooHoChiMinhFactory
 
 2. How to implement the factory pattern?
 3.
